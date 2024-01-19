@@ -30,5 +30,6 @@ public class Employee implements Comparable<Employee>{
 		return salary.compareTo(other.getSalary());
 			// -salary.compareTo(other.getSalary()); ordem decrescente
 			// name.CompareTo(other.getName()); nomes em ordem alfabeta 
+		// good solution
 	}
 }
